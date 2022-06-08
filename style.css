@@ -1,0 +1,47 @@
+* {
+    font-family: 'Erica One', regular;
+
+}
+body{
+    display: grid ;
+    align-items:center ;
+    justify-content: center ;
+} 
+.grid {
+
+    border: 1px solid ;
+    height: 120px;
+    width: 140px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.grid div {
+    height: 20px;
+    width: 20px;
+
+}
+
+.player-one {
+    background-color: rgb(255, 0, 140);
+    border-radius: 10px;
+
+}
+
+.player-two {
+    background-color: rgb(187, 226, 44);
+    border-radius: 10px;
+
+}
+
+h1 {
+    display: grid;
+    justify-content: center;
+    color: rgb(122, 165, 61);
+
+}
+
+#results{
+    color: rgb(255, 0, 140);
+}
